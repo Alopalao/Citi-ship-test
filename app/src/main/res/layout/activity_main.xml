@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="38dp"
+        android:orientation="vertical"></LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/BT_random"
+            android:layout_width="218dp"
+            android:layout_height="match_parent"
+            android:text="Random" />
+
+        <Button
+            android:id="@+id/BT_reset"
+            android:layout_width="192dp"
+            android:layout_height="wrap_content"
+            android:text="Reset" />
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/TX_counter"
+        android:layout_width="141dp"
+        android:layout_height="37dp"
+        android:text="TextView" />
+
+    <TextView
+        android:id="@+id/TX_question"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:text="TextView"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/TX_answers"
+        android:layout_width="match_parent"
+        android:layout_height="547dp"
+        android:text="TextView"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/BT_hide_show"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hide/Show Answers" />
+
+</LinearLayout>
